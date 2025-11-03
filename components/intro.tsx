@@ -7,9 +7,10 @@ export default function Intro() {
       <div className="mt-2 flex-1 md:mt-0">
         <h1 className="title no-underline">Hey, I&#39;m Swapnanil.</h1>
         <p className="mt-3 font-light text-muted-foreground">
-          I&#39;m a software engineer based in Kolkata, India. I&#39;m
-          passionate about learning new technologies.Turning coffee into code
-          and bugs into features, one line at a time.
+          Turning coffee into code and bugs into features—that&#39;s my
+          day-to-day. I&#39;m a software engineer in Kolkata, India, with a deep
+          passion for learning new technologies and building solutions from the
+          ground up.
         </p>
       </div>
       {/* <div className='relative'>
