@@ -1,3 +1,4 @@
+import { Contact } from "@/components/contact";
 import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import Image from "next/image";
@@ -7,6 +8,7 @@ export default function Home() {
     <div className='container max-w-4xl'>
       <Intro/>
       <Projects/>
+      <Contact/>
     </div>
   </section>;
 }

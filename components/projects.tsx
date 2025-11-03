@@ -5,8 +5,8 @@ import Link from "next/link";
 export default async function Projects() {
   return (
     <section className="pb-24">
-      <div id="projects" className="flex flex-col gap-4">
-        <h2 className="title mb-12">Projects</h2>
+      <div id="projects" className="flex flex-col gap-8">
+        <h2 className="title">Projects</h2>
         <div className="grid gap-8">
           {PROJECTS.length > 0 && (
             <div className="w-full bg-foreground/5 rounded-xl overflow-hidden p-2">
