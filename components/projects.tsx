@@ -9,7 +9,7 @@ export default async function Projects() {
         <h2 className="title">Projects</h2>
         <div className="grid gap-8">
           {PROJECTS.length > 0 && (
-            <div className="w-full bg-foreground/5 rounded-xl overflow-hidden p-2">
+            <div className="w-full overflow-hidden  border border-muted-foreground/20 rounded-lg p-2 hover:border-muted-foreground/40 transition-colors duration-300">
               <Link
                 href={PROJECTS[0].href}
                 target="_blank"
@@ -21,7 +21,7 @@ export default async function Projects() {
                   width={1200}
                   height={600}
                   alt={PROJECTS[0].title}
-                  className="w-full object-cover rounded-t-xl"
+                  className="w-full object-cover rounded-t-lg"
                 />
               </Link>
               <div className="p-4 flex flex-col gap-2">
@@ -41,7 +41,7 @@ export default async function Projects() {
                   {PROJECTS[0].techStack.map((tag) => (
                     <div
                       key={tag}
-                      className="flex items-center gap-2 rounded-md bg-foreground/80 text-background px-3 py-1 text-xs font-medium"
+                      className="px-3 py-1 text-xs font-medium text-muted-foreground border border-muted-foreground/20 rounded-md hover:border-muted-foreground/40 hover:text-foreground transition-colors duration-200"
                     >
                       {tag}
                     </div>
@@ -51,7 +51,7 @@ export default async function Projects() {
             </div>
           )}
           {PROJECTS.length > 0 && (
-            <div className="w-full bg-foreground/5 rounded-xl overflow-hidden p-2">
+            <div className="w-full overflow-hidden  border border-muted-foreground/20 rounded-lg p-2 hover:border-muted-foreground/40 transition-colors duration-300">
               <Link
                 href={PROJECTS[1].href}
                 target="_blank"
@@ -63,7 +63,7 @@ export default async function Projects() {
                   width={1200}
                   height={600}
                   alt={PROJECTS[1].title}
-                  className="w-full object-cover rounded-t-xl"
+                  className="w-full object-cover rounded-t-lg"
                 />
               </Link>
               <div className="p-4 flex flex-col gap-2">
@@ -83,7 +83,7 @@ export default async function Projects() {
                   {PROJECTS[1].techStack.map((tag) => (
                     <div
                       key={tag}
-                      className="flex items-center gap-2 rounded-md bg-foreground/80 text-background px-3 py-1 text-xs font-medium"
+                      className="px-3 py-1 text-xs font-medium text-muted-foreground border border-muted-foreground/20 rounded-md hover:border-muted-foreground/40 hover:text-foreground transition-colors duration-200"
                     >
                       {tag}
                     </div>
