@@ -128,7 +128,7 @@ export const Skills = () => {
   ];
   return (
     <div id="skills" className="flex flex-col gap-4 pb-24">
-      <h5 className={cn("font-semibold text-xl")}>Skills</h5>
+      <h2 className="title">Skills</h2>
       <AnimatedTabs tabs={TABS} />
     </div>
   );

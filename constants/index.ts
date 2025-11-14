@@ -17,7 +17,9 @@ import {
     SiNextdotjs,
     SiPostgresql,
     SiDocker,
-    SiGit
+    SiGit,
+    SiDrizzle,
+    SiPrisma
   } from "react-icons/si";
   import { SiMongodb } from "react-icons/si";
   import { SiTypescript } from "react-icons/si";
@@ -113,6 +115,14 @@ export const PROJECTS = [
     {
       name: "Git",
       icon: SiGit
+    },
+    {
+      name: "Drizzle ORM",
+      icon: SiDrizzle
+    },
+    {
+      name: "Prisma ORM",
+      icon: SiPrisma
     }
   ];
   
