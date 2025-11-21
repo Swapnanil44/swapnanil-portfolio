@@ -48,6 +48,20 @@ export const PROJECTS = [
         "Stripe"
       ],
       href: "https://imaginify-version-two.vercel.app/",
+    },
+    {
+      coverImage: "/images/projects/project3.png",
+      title: "Novus",
+      slug: "Novus",
+      description: "A Real Time Saas app with AI Image processing features",
+      techStack: [
+        "ReactJS",
+        "SupaBase",
+        "TypeScript",
+        "TailwindCSS",
+        "ShadcnUI",
+      ],
+      href: "https://job-portal-zeta-lake.vercel.app/",
     }
   ];
 
