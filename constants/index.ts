@@ -53,7 +53,7 @@ export const PROJECTS = [
       coverImage: "/images/projects/project3.png",
       title: "Novus",
       slug: "Novus",
-      description: "A Real Time Saas app with AI Image processing features",
+      description: "Novus is a comprehensive recruitment platform designed to seamlessly bridge the gap between top-tier talent and leading organizations.",
       techStack: [
         "ReactJS",
         "SupaBase",
